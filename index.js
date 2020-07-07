@@ -100,7 +100,7 @@ async function run () {
   H(rows)
     .flatMap((row) => H(addPoi(row)))
     .done(() => {
-      console.log('Done!')
+      console.log('Done importing faillisementen!')
     })
 }
 
