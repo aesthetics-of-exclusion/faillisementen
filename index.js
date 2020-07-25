@@ -6,7 +6,8 @@ const parse = require('csv-parse')
 
 const { db, addAnnotation, random } = require('../database/google-cloud')
 
-const csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT16cUw087uaTe3XKQw-pYUMw-gHAvs63dareFbvO8Eo-r7Go9YpPsOLfaXRq-uss0GnMyH1uIIt6xX/pub?output=csv'
+// const csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT16cUw087uaTe3XKQw-pYUMw-gHAvs63dareFbvO8Eo-r7Go9YpPsOLfaXRq-uss0GnMyH1uIIt6xX/pub?output=csv'
+const csvUrl = 'http://streetswipe-developer.aestheticsofexclusion.com/scraper/scraped-faillisementen-latest.csv'
 const city = 'amsterdam'
 
 const parser = parse({
